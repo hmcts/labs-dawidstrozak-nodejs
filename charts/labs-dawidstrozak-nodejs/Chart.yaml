@@ -7,4 +7,4 @@ version: 0.0.6
 dependencies:
   - name: nodejs
     version: 3.1.1
-    repository: 'https://hmctspublic.azurecr.io/helm/v1/repo/'
+    repository: 'https://hmctssandbox.azurecr.io/helm/v1/repo/'
