@@ -7,6 +7,7 @@ def product = "labs"
 def component = "dawidstrozak-nodejs"
 
 def yarnBuilder = new uk.gov.hmcts.contino.YarnBuilder(this)
+env.REGISTRY_NAME = 'hmctssandbox'
 
 withPipeline(type, product, component) {
   afterSuccess('build') {
